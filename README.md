@@ -10,7 +10,6 @@ Route::get('/foo', function () {
 ```
 ###### Option #2
 ```
-<?php
 symlink(__DIR__ . '/../laravel-core/storage/app/', 'storage');
 ```
 
